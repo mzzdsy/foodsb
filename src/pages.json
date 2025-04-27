@@ -1,0 +1,102 @@
+{
+	"pages": [
+		{
+			"path": "pages/food-recognition/index",
+			"style": {
+				"navigationBarTitleText": "美食识别",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/ai-assistant/index",
+			"style": {
+				"navigationBarTitleText": "AI助手",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/recommendations/index",
+			"style": {
+				"navigationBarTitleText": "推荐",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/profile/index",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/register/index",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/user-info/index",
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/food-analysis/index",
+			"style": {
+				"navigationBarTitleText": "美食分析",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/bmi-detail/index",
+			"style": {
+				"navigationBarTitleText": "BMI详情",
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#9b6bff",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/food-recognition/index",
+				"text": "美食识别"
+			},
+			{
+				"pagePath": "pages/ai-assistant/index",
+				"text": "AI助手"
+			},
+			{
+				"pagePath": "pages/recommendations/index",
+				"text": "推荐"
+			},
+			{
+				"pagePath": "pages/profile/index",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "美食识别",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+		}
+	}
+}
